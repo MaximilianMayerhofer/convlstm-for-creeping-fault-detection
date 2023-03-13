@@ -24,7 +24,6 @@ Along with the ConvLSTM, other validation models are built, trained, validated, 
 		- Faulty Data
 		- Manipulated Sensor Data
 		- Normal Data
-	- PlotsForThesis
 	- Raw Data
 - Trained Models
 	- 20230118_093033_0.1_rmsprop_2_100_32
