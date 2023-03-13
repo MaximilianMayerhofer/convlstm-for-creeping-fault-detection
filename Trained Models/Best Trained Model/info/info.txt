@@ -1,0 +1,19 @@
+Date: 20230118
+Time: 093033
+Model - Name: conv_lstm
+Model - Loss Function: categorical_crossentropy
+Model - Optimizer: rmsprop
+Model - Metrics: categorical_accuracy
+First Layer: conv_input
+First Layer - Filters: 64
+First Layer - Kernel-Size: 5
+First Layer - Input-Shape: 60, 17
+First Layer - Activation-Function: relu
+Second Layer: dropout_1
+Second Layer - Dropout-Rate: 0.1
+Third Layer: bidirectional_lstm_1
+Third Layer - Units: 32
+Third Layer - Dropout-Rate: 0.1
+Fourth Layer: dense_output
+Fourth Layer - Units: 29
+Fourth Layer - Activation-Function: softmax

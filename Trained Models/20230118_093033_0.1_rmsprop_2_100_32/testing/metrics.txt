@@ -1,0 +1,4 @@
+Model Test Loss: 0.10113786906003952
+Model Test Accuracy: 0.9608681201934814
+Model Cohen Kappa Coefficient: 0.9594692246514273
+Model Matthew Correlation Coefficient: 0.9606280102926052
