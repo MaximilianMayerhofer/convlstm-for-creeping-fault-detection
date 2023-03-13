@@ -1,0 +1,13 @@
+Date: 20230118
+Time: 095707
+Model - Name: simple_gru
+Model - Loss Function: categorical_crossentropy
+Model - Optimizer: rmsprop
+Model - Metrics: categorical_accuracy
+First Layer: gru_input
+First Layer - Units: 32
+First Layer - Dropout-Rate: 0.1
+First Layer - Input-Shape: 60, 17
+Second Layer: dense_output
+Second Layer - Units: 29
+Second Layer - Activation: softmax

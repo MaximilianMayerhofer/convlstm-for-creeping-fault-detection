@@ -1,0 +1,13 @@
+Date: 20230118
+Time: 102133
+Model - Name: simple_lstm
+Model - Loss Function: categorical_crossentropy
+Model - Optimizer: rmsprop
+Model - Metrics: categorical_accuracy
+First Layer: lstm_input
+First Layer - Units: 32
+First Layer - Dropout-Rate: 0.1
+First Layer - Input-Shape: 60, 17
+Second Layer: dense_output
+Second Layer - Units: 29
+Second Layer - Activation-Function: softmax
